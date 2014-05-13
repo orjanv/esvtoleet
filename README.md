@@ -1,20 +1,18 @@
-esvtoleet
-=========
+### esvtoleet
 
 The ESV Bible passage leetspeak translator
 
-How to use
-----------
+#### How to use
 
-```
+```bash
 $ python esv-to-leet.py passage key
 ```
 
-key is if you have a key at the ESV Bible Web Service API (http://www.esvapi.org/v2)
-passage is ex "John 3:16"
+| parameter | description                             |
+| :---------| :-------------------------------------- |
+| passage   | ex "John 3:16"                          |  
+| key       | if you have a key at the ESV Bible Web Service API (http://www.esvapi.org/v2) | 
 
-
-Thanks
-------
+#### Thanks
 
 Thanks to Christian Wyglendowski for ESV code samples and to baavgai for leet code
