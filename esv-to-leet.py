@@ -6,7 +6,7 @@ import sys
 class LeetSpeak():
     def __init__(self):
         self.x = '1337'
-        
+
     def toLeet(self, text):
         leet = (
             (('are', 'Are'), 'r'),
@@ -50,7 +50,7 @@ if __name__ == '__main__':
         key = sys.argv[2]
     except IndexError:
         key = 'IP'
-        
+
     bible = ESVSession(key)
     leet = LeetSpeak()
 
